@@ -1,0 +1,25 @@
+/*
+Program 6   Write a program to calculate the average of three number
+Solution 2  User define value
+*/
+
+
+#include<stdio.h>
+
+int main()
+{
+    int num1 , num2 , num3 , total ;
+    float average ;
+
+    printf(" Enter first number :");
+    scan("%d",& num1);
+    printf(" Enter second number ;");
+    scanf("%d", & num2);
+    printf(" Enter third number :");
+    scanf("%d", & num3);
+    total = (num1 + num2 + num3);
+    average = total/3;
+    printf("\n Average = %f",average);
+
+    return 0 ;
+}
